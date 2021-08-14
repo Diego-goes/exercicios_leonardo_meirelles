@@ -1,0 +1,28 @@
+body{
+    font: normal 20pt arial;;
+}
+#descricao{
+    text-align: center;
+    font-size: 13pt;
+    padding: 20px;
+    background-color: wheat;
+    width: 800px;
+    margin:auto;
+    border-radius: 10px;
+}
+#status{
+    text-align: center;
+    font-size: 13pt;
+    padding: 5px;
+    background-color:wheat;
+    width: 250px;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 10px;
+    font-style: italic;
+}

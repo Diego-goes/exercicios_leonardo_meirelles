@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex06</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="onLoad('inputNomes')">
+    <header>
+        <p id="descricao">Descrição do exercício:
+            <br>Peça ao usuário para digitar vários nomes. Exiba na tela todos os nomes digitados, porém de maneira invertida (do último para o primeiro).
+        </p>
+        <p id="status">Status: Exercício Completo ✔️</p>
+        <h1>Nomes na ordem contrária:</h1>
+    </header>
+    <section id="section">
+        <p>
+            Insira vários nomes, eles devem ser separados por vírgulas (  "  ,  "  ):
+            <small>&#9432 Insira apenas letras, espaços e vírgulas. | Números, pontos, e outros caracteres não são válidos!</small>
+        </p>
+        <input type="text" id="inputNomes" class="inputText" value="Digite aqui..." oninput="preenchimento('inputNomes')">
+        <input type="button" value="Exibir" class="inputButton" id="buttonExibir" onmouseleave="mouseSaiu('buttonExibir')" onmouseover="mouseEmCima('buttonExibir')" onclick="exibir()">
+    </section>
+    <footer>
+        &copy; Programmed by <a href="https://github.com/Diego-goes" target="_blank">Diego Goes</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

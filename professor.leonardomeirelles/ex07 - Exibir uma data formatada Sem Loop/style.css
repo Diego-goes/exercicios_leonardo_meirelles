@@ -1,0 +1,57 @@
+body{
+    font: normal 20pt arial;
+    color: white;
+    background-color: rgb(212, 51, 78);
+    text-align: center;
+}
+#descricao{
+    text-align: center;
+    font-size: 13pt;
+    padding: 20px;
+    background-color: rgb(194, 45, 70);
+    width: 800px;
+    margin:auto;
+    border-radius: 10px;
+}
+#status{
+    text-align: center;
+    font-size: 13pt;
+    padding: 5px;
+    background-color:rgb(194, 45, 70);
+    width: 250px;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+small{
+    font-size: 12pt;
+    color: rgb(219, 79, 102);
+}
+section{
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 800px;
+    background-color: rgb(194, 45, 70);
+}
+.inputText{
+    text-align: center;
+    color: rgb(196, 194, 194);
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 5px;
+}
+.inputButton{
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 5px;
+    width: 60px;
+    border-color: honeydew;
+}
+footer{
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 10px;
+    font-style: italic;
+}

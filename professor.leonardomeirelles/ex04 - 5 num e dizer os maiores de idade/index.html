@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="foco()">
+    <header>
+        <p id="descricao">Descrição do exercício:
+            <br>Peça ao usuário para digitar várias idades. Exiba quantas pessoas são maior de idade (18 anos) e quantas são menores.
+        </p>
+        <p id="status">Status: Exercício Completo ✔️</p>
+        <h1>Maiores de idade:</h1>
+    </header>
+    <section id="sectionResultado">
+        <p>
+            Insira várias idades separadas por Ponto&Vírgula (  "  ;  "  ):
+            <input type="text" class="inputText" id="inputIdades" oninput="limparDiv()">
+        </p>
+        <input type="button" value="Mostrar" class="inputButton" onclick="mostrar()">
+    </section>
+    <footer>
+        &copy; Programmed by <a href="https://github.com/Diego-goes" target="_blank">Diego Goes</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

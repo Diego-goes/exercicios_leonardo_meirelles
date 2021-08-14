@@ -1,0 +1,30 @@
+body{
+    background-color: coral;
+    font:normal 15pt arial;
+}
+header{
+    font-size: 12pt;
+    text-align: center;
+    color:white;
+}
+section{
+    margin: auto;
+    text-align: center;
+    background-color: wheat;
+    padding: 1px;
+    width: 800px;
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+    width: 100px;
+}
+hr{
+    border-color: tomato;
+    width: 700px;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}

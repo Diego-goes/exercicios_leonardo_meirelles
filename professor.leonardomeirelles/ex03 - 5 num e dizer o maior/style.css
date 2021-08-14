@@ -1,0 +1,62 @@
+body{
+    font: normal 20pt arial;
+    color: white;
+    background-color: rgb(194, 34, 34);
+}
+header{
+    text-align: center;
+}
+section{
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    width: 800px;
+    background-color: rgb(43, 36, 28);
+}
+.inputTxt{
+    text-align: center;
+    border-radius: 10px;
+    border-color: darkred;
+    width: 100px;
+    padding: 5px;
+}
+.inputButton{
+    border-radius: 10px;
+    border-color: darkred;
+    width: 80px;
+    padding: 3px;
+    text-align: center;
+}
+#descricao{
+    text-align: center;
+    font-size: 13pt;
+    padding: 20px;
+    background-color: rgb(179, 32, 32);
+    width: 800px;
+    margin:auto;
+    border-radius: 10px;
+}
+#status{
+    text-align: center;
+    font-size: 13pt;
+    padding: 5px;
+    background-color:rgb(179, 32, 32);
+    width: 250px;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 10px;
+    font-style: italic;
+}
+hr{
+    width: 600px;
+}
+small{
+    font-size: 10pt;
+    color: rgb(100, 89, 89);
+}

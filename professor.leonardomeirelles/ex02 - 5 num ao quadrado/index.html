@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="foco()">
+    <header>
+        <p id="descricao">Descrição do exercício:
+            <br>Faça um programa que entre com cinco números e imprima o quadrado de cada número.
+        </p>
+        <p id="status">Status: Exercício Concluído ✔️</p>
+        <h1>Números ao quadrado:</h1>
+    </header>
+    <section id="sectionResultado">
+        <div>
+            <p>Insira 5 numeros para serem elevados ao quadrado:</p>
+            <p>1º Numero: <input type="number" id="numId_1" class="inputNumber" oninput="cleanDivResultado()"></p>
+            <p>2º Numero: <input type="number" id="numId_2" class="inputNumber" oninput="cleanDivResultado()"></p>
+            <p>3º Numero: <input type="number" id="numId_3" class="inputNumber" oninput="cleanDivResultado()"></p>
+            <p>4º Numero: <input type="number" id="numId_4" class="inputNumber" oninput="cleanDivResultado()"></p>
+            <p>5º Numero: <input type="number" id="numId_5" class="inputNumber" oninput="cleanDivResultado()"></p>
+            <input type="button" id="calcular" value="Calcular" class="inputButton" onclick="calcular()">
+        </div>
+    </section>
+    <footer>
+        &copy; Programmed by <a href="https://github.com/Diego-goes" target="_blank">Diego Goes</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

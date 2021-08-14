@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex05</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="foco()">
+    <header>
+        <p id="descricao">Descrição do exercício:
+            <br>Crie um programa que entre com os dados de altura e sexo de 5 pessoas. Imprima na tela quantas pessoas
+            são do sexo masculino e quantas pessoas são do sexo feminino. Mostre também qual é a maior altura e se essa
+            altura é de um homem ou uma mulher.
+        </p>
+        <p id="status">Status: Exercício Completo ✔️</p>
+        <h1>5 dados de altura e sexo:</h1>
+    </header>
+    <hr>
+    <section id="section">
+        <p>
+            1ª pessoa | ⠀⠀⠀⠀Altura: <input type="number" min="0" class="inputNumber" id="inputAltura_id_1"> 
+            ⠀⠀⠀⠀⠀Sexo: <select class="select" id="sexo_id_1">
+                    <option>Selecionar</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+        </p>
+        <p>
+            2ª pessoa | ⠀⠀⠀⠀Altura: <input type="number" min="0" class="inputNumber" id="inputAltura_id_2"> 
+            ⠀⠀⠀⠀⠀Sexo: <select class="select" id="sexo_id_2">
+                    <option>Selecionar</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+        </p>
+        <p>
+            3ª pessoa | ⠀⠀⠀⠀Altura: <input type="number" min="0" class="inputNumber" id="inputAltura_id_3"> 
+            ⠀⠀⠀⠀⠀Sexo: <select class="select" id="sexo_id_3">
+                    <option>Selecionar</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+        </p>
+        <p>
+            4ª pessoa | ⠀⠀⠀⠀Altura: <input type="number" min="0" class="inputNumber" id="inputAltura_id_4"> 
+            ⠀⠀⠀⠀⠀Sexo: <select class="select" id="sexo_id_4">
+                    <option>Selecionar</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+        </p>
+        <p>
+            5ª pessoa | ⠀⠀⠀⠀Altura: <input type="number" min="0" class="inputNumber" id="inputAltura_id_5"> 
+            ⠀⠀⠀⠀⠀Sexo: <select class="select" id="sexo_id_5">
+                    <option>Selecionar</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+        </p>
+        <input type="button" value="Exibir" onclick="exibir()" class="inputButton">
+    </section>
+    <footer>
+        &copy; Programmed by <a href="https://github.com/Diego-goes" target="_blank">Diego Goes</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

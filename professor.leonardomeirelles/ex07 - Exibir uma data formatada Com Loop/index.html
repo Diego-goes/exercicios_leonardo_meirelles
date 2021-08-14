@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex07</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="foco('inputData')">
+    <header>
+        <p id="descricao">Descrição do exercício:
+            <br>Peça para o usuário digitar uma data, e exiba separadamente o dia, o mês e o ano. 
+        </p>
+        <p id="status">Status: Exercício Completo ✔️</p>
+        <h1>Valores de uma data:</h1>
+    </header>
+    <section id="section">
+        <p>
+            Insira uma data: 
+            <br><input type="text" class="inputText" id="inputData" value="dd / mm / aaaa" oninput="preenchendo('inputData')"> 
+            <input type="button" class="inputButton" id="buttonExibir" onclick="exibir()" value="Exibir" onmouseover="mouseOver('buttonExibir')" onmouseleave="mouseLeave('buttonExibir')">
+        </p>
+    </section>
+    <footer>
+        &copy; Programmed by <a href="https://github.com/Diego-goes" target="_blank">Diego Góes</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
